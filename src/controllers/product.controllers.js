@@ -1,4 +1,4 @@
-import e from "express";
+
 import { prisma } from "../db/db.js";
 
 export const getProducts = async (req, res) => {

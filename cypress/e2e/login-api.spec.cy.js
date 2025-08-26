@@ -1,6 +1,4 @@
 
-
-
 describe("Login API Tests", () => {
   it("debería de retornar 201 y un token para credenciales válidas", () => {
     cy.request({

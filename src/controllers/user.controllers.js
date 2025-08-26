@@ -25,7 +25,7 @@ export const register = async (req, res) => {
       },
     });
     res.status(201).json({
-      message: "Usuario creado correctamente",
+      message: ["Usuario creado correctamente"],
       user: {
         id: user.id,
         name: user.name,
